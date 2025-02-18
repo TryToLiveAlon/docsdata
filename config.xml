@@ -984,11 +984,11 @@ func main() {
     </citation>
     <team>
       <member owner="true">
-        <name>Laky</name>
+        <name>TryToLiveAlon</name>
         <role>DevOps Engineer, Software Architect</role>
-        <github-username>Laky-64</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>Laky64</telegram-username>
+        <github-username>BotDevFather</github-username>
+        <instagram-username>BotDevFather</instagram-username>
+        <telegram-username>BotDevFather</telegram-username>
       </member>
       <member>
         <name>Giovanni</name>
@@ -1064,7 +1064,7 @@ func main() {
         <link href="https://github.com/pytgcalls/pytgcalls.github.io">Contribute to this site</link>
         <link href="https://t.me/pytgcallsnews">Newsletter</link>
       </category>
-      <dsc>© 2024 • PyTgCalls Foundation by Vrumger &amp; Laky64</dsc>
+      <dsc>© 2024 • Documention Foundation by BotDevFather &amp; Me</dsc>
     </footer-links>
   </homepage-config>
 
