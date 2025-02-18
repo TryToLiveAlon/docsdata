@@ -1227,4 +1227,10 @@
       <file>UpdatedGroupCallParticipant.xml</file>
     </group>
   </files-list>
+    <files-list id="PasteBin" description="Async PasteBin API for the sharing codes." basepath="PasteBin/" defaultfile="Quick Start.xml">
+    <microtag>Introduction</microtag>
+    <file>Quick Start.xml</file>
+    <file>Install Guide.xml</file>
+    <file>Changelogs.xml</file>
+      </files-list>
 </config>
