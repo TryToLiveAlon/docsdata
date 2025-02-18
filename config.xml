@@ -911,13 +911,19 @@
         <syntax-highlight language="c">
             #include &lt;stdio.h&gt;
 
-int main() {
-  for (int i = 1; i <= 10; i++) {
-    if (i % 2 == 0) {
-      printf("%d\n", i);
+long factorial(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
     }
-  }
-  return 0;
+    return n * factorial(n - 1);
+}
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &amp;num);
+    printf("Factorial of %d is %ld\n", num, factorial(num));
+    return 0;
 }
         </syntax-highlight>
       </file>
@@ -925,15 +931,21 @@ int main() {
         <syntax-highlight language="go">
             package main
 
-import (
-  "fmt"
-  "math"
-)
+import "fmt"
+
+func fibonacci(n int) []int {
+    fibSeq := []int{0, 1}
+    for i := 2; i &lt; n; i++ {
+        fibSeq = append(fibSeq, fibSeq[i-1]+fibSeq[i-2])
+    }
+    return fibSeq
+}
 
 func main() {
-  x := 4.0
-  y := math.Sqrt(x)
-  fmt.Printf("Square root of %.2f is %.2f\n", x, y)
+    var n int
+    fmt.Print("Enter the number of Fibonacci terms: ")
+    fmt.Scan(&amp;n)
+    fmt.Println("Fibonacci Sequence:", fibonacci(n))
 }
         </syntax-highlight>
       </file>
