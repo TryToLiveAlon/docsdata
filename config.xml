@@ -1,5 +1,4 @@
 <config>
-  <option id="NTGCALLS_VERSION">1.2.2</option>
   <option id="PYTGCALLS_VERSION">2.0.3</option>
   <option id="PYPI_PACKAGE">py-tgcalls</option>
 
@@ -1067,95 +1066,6 @@
     </footer-links>
   </homepage-config>
 
-  <files-list id="NTgCalls" description="A Native Implementation of Telegram Calls in a seamless way." basepath="NTgCalls/" defaultfile="Quick Start.xml">
-    <microtag>Introduction</microtag>
-    <file>Quick Start.xml</file>
-    <file>Build Guide.xml</file>
-
-    <microtag>Python Api</microtag>
-    <file>Client.xml</file>
-    <file>Callbacks.xml</file>
-    <group basepath="NTgCalls/Basic Methods/">
-      <file>Connect.xml</file>
-      <file>Connect P2P.xml</file>
-      <file>Create Call.xml</file>
-      <file>Create P2P Call.xml</file>
-      <file>Exchange Keys.xml</file>
-      <file>Stop.xml</file>
-    </group>
-    <group basepath="NTgCalls/Stream Methods/">
-      <file>Change Stream.xml</file>
-      <file>Mute.xml</file>
-      <file>Pause.xml</file>
-      <file>Resume.xml</file>
-      <file>UnMute.xml</file>
-    </group>
-    <group basepath="NTgCalls/Advanced Methods/">
-      <file>Get State.xml</file>
-    </group>
-    <group basepath="NTgCalls/Available Types/">
-      <file>AudioDescription.xml</file>
-      <file>AuthParams.xml</file>
-      <file>DhConfig.xml</file>
-      <file>MediaDescription.xml</file>
-      <file>MediaState.xml</file>
-      <file>Protocol.xml</file>
-      <file>RTCServer.xml</file>
-      <file>VideoDescription.xml</file>
-    </group>
-    <group basepath="NTgCalls/Available Enums/">
-      <file>InputMode.xml</file>
-      <file>StreamStatus.xml</file>
-      <file>StreamType.xml</file>
-    </group>
-
-    <microtag>C Api</microtag>
-    <file>Getting Started.xml</file>
-    <file>Callback Registration.xml</file>
-    <file>Using Async.xml</file>
-    <group basepath="NTgCalls/Basic Methods/">
-      <file>ntg_connect.xml</file>
-      <file>ntg_connect_p2p.xml</file>
-      <file>ntg_create.xml</file>
-      <file>ntg_create_p2p.xml</file>
-      <file>ntg_exchange_keys.xml</file>
-      <file>ntg_stop.xml</file>
-    </group>
-    <group basepath="NTgCalls/Stream Methods/">
-      <file>ntg_change_stream.xml</file>
-      <file>ntg_mute.xml</file>
-      <file>ntg_pause.xml</file>
-      <file>ntg_resume.xml</file>
-      <file>ntg_time.xml</file>
-      <file>ntg_unmute.xml</file>
-    </group>
-    <group basepath="NTgCalls/Advanced Methods/">
-      <file>ntg_calls.xml</file>
-      <file>ntg_calls_count.xml</file>
-      <file>ntg_get_protocol.xml</file>
-      <file>ntg_get_state.xml</file>
-      <file>ntg_send_signaling_data.xml</file>
-    </group>
-    <group basepath="NTgCalls/Available Structs/">
-      <file>ntg_audio_description_struct.xml</file>
-      <file>ntg_auth_params_struct.xml</file>
-      <file>ntg_call_struct.xml</file>
-      <file>ntg_dh_config_struct.xml</file>
-      <file>ntg_log_message_struct.xml</file>
-      <file>ntg_media_description_struct.xml</file>
-      <file>ntg_media_state_struct.xml</file>
-      <file>ntg_protocol_struct.xml</file>
-      <file>ntg_rtc_server_struct.xml</file>
-      <file>ntg_video_description_struct.xml</file>
-    </group>
-    <group basepath="NTgCalls/Available Enums/">
-      <file>ntg_input_mode_enum.xml</file>
-      <file>ntg_log_level_enum.xml</file>
-      <file>ntg_log_source_enum.xml</file>
-      <file>ntg_stream_status_enum.xml</file>
-      <file>ntg_stream_type_enum.xml</file>
-    </group>
-  </files-list>
 
   <files-list id="PyTgCalls" description="Async Python client API for the Telegram Calls" basepath="PyTgCalls/" defaultfile="Quick Start.xml">
     <microtag>Introduction</microtag>
