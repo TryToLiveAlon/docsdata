@@ -898,72 +898,17 @@
     <pres-items>
       <file title="pytgcalls.py">
         <syntax-highlight>
-            from pytgcalls import PyTgCalls
-            from pytgcalls import idle
-            from pytgcalls.types import MediaStream
-            ...
-            app = PyTgCalls(client)
-            app.start()
-            app.play(
-                -1001185324811,
-                MediaStream(
-                    'http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4',
-                )
-            )
-            idle()
+            hi
         </syntax-highlight>
       </file>
       <file title="ntgcalls.c">
         <syntax-highlight language="c">
-            #include &lt;stdint.h&gt;
-            #include "ntgcalls.h"
-
-            int main() {
-                uint32_t uid = ntg_init();
-
-                int64_t chatID = ...; // Obtain the chat ID
-                char* params = ...;  // Obtain connection parameters
-
-                int result = ntg_connect(uid, chatID, params);
-                if (result == 0) {
-                    // Successfully connected to the WebRTC
-                    ...
-                } else {
-                    printf("Failed to connect: %d\n", result);
-                }
-                ...
-                return 0;
-            }
+            hi2
         </syntax-highlight>
       </file>
       <file title="ntgcalls.go">
         <syntax-highlight language="go">
-            package main
-
-            //#cgo LDFLAGS: -L . -lntgcalls -Wl,-rpath=./
-            import "C"
-            import (
-                "fmt"
-                ...
-                "example/ntgcalls"
-            )
-
-            func main() {
-                client := ntgcalls.NTgCalls()
-                defer client.Free()
-
-                chatID := ... // Obtain the chat ID
-                params := ... // Obtain connection parameters
-
-                err := ntgcalls.Connect(uid, chatID, params)
-                if err == nil {
-                    // Successfully connected to the WebRTC
-                    ...
-                } else {
-                    fmt.Printf("Failed to connect: %d\n", err)
-                }
-                ...
-            }
+            hi3
         </syntax-highlight>
       </file>
     </pres-items>
@@ -1065,8 +1010,7 @@
       <dsc>© 2024 • PyTgCalls Foundation by Vrumger &amp; Laky64</dsc>
     </footer-links>
   </homepage-config>
-
-
+  
   <files-list id="PyTgCalls" description="Async Python client API for the Telegram Calls" basepath="PyTgCalls/" defaultfile="Quick Start.xml">
     <microtag>Introduction</microtag>
     <file>Quick Start.xml</file>
@@ -1137,7 +1081,15 @@
       <file>UpdatedGroupCallParticipant.xml</file>
     </group>
   </files-list>
+  
     <files-list id="PasteBin" description="Async PasteBin API for the sharing codes." basepath="PasteBin/" defaultfile="Quick Start.xml">
+    <microtag>Introduction</microtag>
+    <file>Quick Start.xml</file>
+    <file>Install Guide.xml</file>
+    <file>Changelogs.xml</file>
+      </files-list>
+
+  <files-list id="TeleFlix" description="Async Teleflix for watching all Netflix video on telegram" basepath="TeleFlix/" defaultfile="Quick Start.xml">
     <microtag>Introduction</microtag>
     <file>Quick Start.xml</file>
     <file>Install Guide.xml</file>
