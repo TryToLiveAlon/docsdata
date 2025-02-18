@@ -896,7 +896,7 @@
 
   <homepage-config>
     <pres-items>
-      <file title="pytgcalls.py">
+      <file title="project.py">
         <syntax-highlight>
             def is_prime(n):
     if n &lt; 2:
@@ -917,7 +917,7 @@ n = int(input("Enter a number: "))
 print("Prime numbers up to", n, ":", generate_primes(n))
         </syntax-highlight>
       </file>
-      <file title="ntgcalls.c">
+      <file title="project.c">
         <syntax-highlight language="c">
             #include &lt;stdio.h&gt;
 
@@ -937,7 +937,7 @@ int main() {
 }
         </syntax-highlight>
       </file>
-      <file title="ntgcalls.go">
+      <file title="project.go">
         <syntax-highlight language="go">
             package main
 
