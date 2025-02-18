@@ -1075,7 +1075,7 @@ func main() {
     <file>Changelogs.xml</file>
       </files-list>
 
-  <files-list id="TeleFlix" description="Async Teleflix for watching all Netflix video on telegram" basepath="TeleFlix/" defaultfile="Quick Start.xml">
+  <files-list id="TeleFlix" description="Async Teleflix for watching all Netflix video on Telegram" basepath="TeleFlix/" defaultfile="Quick Start.xml">
     <microtag>Introduction</microtag>
     <file>Quick Start.xml</file>
     <file>Install Guide.xml</file>
