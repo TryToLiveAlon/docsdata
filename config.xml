@@ -1048,21 +1048,21 @@ func main() {
       </member>
     </team>
     <footer-links>
-      <contribution-link>https://github.com/pytgcalls/pytgcalls.github.io</contribution-link>
+      <contribution-link>https://t.me/deathchatting_world</contribution-link>
       <category title="Products">
-        <link href="/PyTgCalls/Changelogs">Changelogs</link>
+        <link href="/PasteBin/Changelogs">Changelogs</link>
         <link href="https://github.com/pytgcalls/pytgcalls/">PyTgCalls</link>
         <link href="https://github.com/pytgcalls/ntgcalls/">NTgCalls</link>
       </category>
       <category title="Project links">
-        <link href="https://github.com/pytgcalls/ntgcalls/issues/new/choose">Open a NTgCalls issue</link>
-        <link href="https://github.com/pytgcalls/pytgcalls/issues/new/choose">Open a PyTgCalls issue</link>
-        <link href="https://t.me/pytgcallschat">Ask to PyTgCalls Community</link>
+        <link href="https://github.com/BotDevFather/Teleflix/issues/new/choose">Open a NTgCalls issue</link>
+        <link href="https://github.com/BotDevFather/PasteBin/issues/new/choose">Open a PyTgCalls issue</link>
+        <link href="https://t.me/deathchatting_world">Ask to PyTgCalls Community</link>
       </category>
       <category title="Company">
-        <link href="https://github.com/pytgcalls">Github Organization</link>
-        <link href="https://github.com/pytgcalls/pytgcalls.github.io">Contribute to this site</link>
-        <link href="https://t.me/pytgcallsnews">Newsletter</link>
+        <link href="https://github.com/BotDevFather">Github Organization</link>
+        <link href="https://t.me/DeathSupportBot">Contribute to our community</link>
+        <link href="https://t.me/TryToLiveAlon">Newsletter</link>
       </category>
       <dsc>© 2024 • Documention Foundation by BotDevFather &amp; Me</dsc>
     </footer-links>
