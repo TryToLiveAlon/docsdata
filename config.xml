@@ -1027,8 +1027,9 @@ func main() {
       <microtag>Getting Started</microtag>
     <file>Get Methods.xml</file>
     <file>Parameter Methods.xml</fil>
-
-      <group basepath="PasteBin/Parameter/">
+      
+     <microtag>Parameter</microtag>
+     <group basepath="PasteBin/Parameter/">
       <file>backgroundColor.xml</file>
       <file>dropShadow.xml</file>
       <file>dropShadowBlurRadius.xml</file>
@@ -1050,7 +1051,8 @@ func main() {
       <file>windowControls.xml</file>
       <file>windowTheme.xml</file>
     </group>
-      
+
+      <microtag>Examples</microtag>
       <group basepath="PasteBin/Example Codes/">
       <file>Bots javascript.xml</file>
       <file>Telebot Code.xml</file>
