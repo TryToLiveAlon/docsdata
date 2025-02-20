@@ -1026,8 +1026,6 @@ func main() {
 
       <microtag>Getting Started</microtag>
     <file>Get Methods.xml</file>
-    <file>Parameter Methods.xml</fil>
-      
      <microtag>Parameter</microtag>
      <group basepath="PasteBin/Parameter/">
       <file>backgroundColor.xml</file>
