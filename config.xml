@@ -962,24 +962,24 @@ func main() {
     </pres-items>
     <numeric-pres-points>
       <item
-        title="20 MLN+"
-        description="Total downloads from PyPi or Github"
+        title="2 Lakh+"
+        description="Total downloads request from API"
       />
       <item
-        title="30,000+"
+        title="1,000+"
         description="Projects that have adopted PyTgCalls or NTgCalls"
-        origin="Available NTgCalls since 2023"
+        origin="Available since 2025"
       />
       <item
-        title="78,9%"
-        description="Developer preference for PyTgCalls"
-        origin="Based on Github stats 2024"
+        title="13,9%"
+        description="Developer preference for Our API"
+        origin="Based on stats"
       />
     </numeric-pres-points>
     <citation>
       <value>
-        Our mission is to make Telegram calls effortless for developers of all backgrounds, from complex class to seamless integration.<br/>
-        No prior WebRTC or C++ experience is required.
+        Our mission is to make Development service effortless for developers of all backgrounds, from complex class to seamless integration.<br/>
+        No prior to do server function or great experience is required.
       </value>
     </citation>
     <team>
@@ -991,68 +991,19 @@ func main() {
         <telegram-username>BotDevFather</telegram-username>
       </member>
       <member>
-        <name>Giovanni</name>
-        <role>Senior UI/UX designer, Documenter</role>
-        <github-username>kuogi</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>kuogi</telegram-username>
-      </member>
-      <member>
-        <name>Avrumy</name>
-        <role>Mid-level NodeJS Developer</role>
-        <github-username>vrumger</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>twitface</telegram-username>
-      </member>
-      <member>
-        <name>Turi</name>
-        <role>Junior Python Developer</role>
-        <github-username>TuriOG</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>TuriOG</telegram-username>
-      </member>
-      <member>
-        <name>dogghi no</name>
-        <role>Junior DevOps, Tester</role>
-        <github-username>doggyhaha</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>cagavo</telegram-username>
-      </member>
-      <member>
-        <name>Valerio</name>
-        <role>Junior Go Developer, Tester</role>
-        <github-username>tappo03</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>tappo03</telegram-username>
-      </member>
-      <member>
-        <name>Nick</name>
-        <role>Tester</role>
-        <github-username>null-nick</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>GodsPro</telegram-username>
-      </member>
-      <member>
         <name>Spidey</name>
         <role>Tester</role>
         <github-username>Spideyofficial777</github-username>
         <instagram-username>Spidey_official_777</instagram-username>
         <telegram-username>Spidey_official_777</telegram-username>
       </member>
-      <member>
-        <name>Jamil Md</name>
-        <role>Copywriter</role>
-        <github-username>SadLuffy</github-username>
-        <instagram-username>Laky64</instagram-username>
-        <telegram-username>SadLuffy</telegram-username>
-      </member>
     </team>
     <footer-links>
       <contribution-link>https://t.me/deathchatting_world</contribution-link>
       <category title="Products">
         <link href="/PasteBin/Changelogs">Changelogs</link>
-        <link href="https://github.com/pytgcalls/pytgcalls/">PyTgCalls</link>
-        <link href="https://github.com/pytgcalls/ntgcalls/">NTgCalls</link>
+        <link href="https://github.com/BotDevFather/Teleflix">TeleFlix</link>
+        <link href="https://github.com/BotDevFather/PasteBin">PasteBin</link>
       </category>
       <category title="Project links">
         <link href="https://github.com/BotDevFather/Teleflix/issues/new/choose">Open a NTgCalls issue</link>
@@ -1078,7 +1029,5 @@ func main() {
   <files-list id="TeleFlix" description="Async Teleflix for watching all Netflix video on Telegram" basepath="TeleFlix/" defaultfile="Quick Start.xml">
     <microtag>Introduction</microtag>
     <file>Quick Start.xml</file>
-    <file>Install Guide.xml</file>
-    <file>Changelogs.xml</file>
       </files-list>
 </config>
