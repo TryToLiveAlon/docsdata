@@ -1,1 +1,23 @@
-
+<page>
+    <category>
+        <br/>
+        <banner
+            imageurl=""
+            minititle="BUG FIXES"
+            bigtitle="PasteBin v0.5"
+            description="Smoother Request, and Enhanced Error Insight"
+            mainbg="#070d16"
+            version="0.5"
+            imagewidth="1920"
+            imageheight="1080"
+        />
+        <subtext>
+            <h3 noref="true">Changes &amp; Fixes</h3>
+            <list>
+                <item><text><b>Fixed timeout: </b>Fixed an issue where timeout error enhancing the speed of the API.</text></item>
+                <item><text><b>Improved parameter: </b>The parameter error is now remoed enjoy.</text></item>
+                <config id="BUG_FIX_CHANGELOGS"/>
+            </list>
+        </subtext>
+    </category>
+</page>
