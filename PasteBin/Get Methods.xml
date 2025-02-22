@@ -1,1 +1,53 @@
+<page>
+    <h1>Install Guide</h1>
+    <text>
+        Being a modern API, <b>PasteBin</b> requires no time to fit into in your choice.
+        We recommend using the latest versions of the code you are using.
+    </text>
+    <list>
+        <item>Get Python 3 from the <a href="https://www.python.org/downloads/">Python website</a> or use your package manager.</item>
+        <item>Get pip by following the instructions <a href="https://pip.pypa.io/en/latest/installing/">here</a>.</item>
+    </list>
+    <alert type="important">PasteBin only supports <b>GET request</b>, POST request is under development.</alert>
+    <separator/>
+    <h2>Install request</h2>
+    <text>The easiest way to install and upgrade request to its latest stable version is by using pip:</text>
+    <syntax-highlight language="bash">
+        $ pip3 install -U request
+    </syntax-highlight>
+    <h2>Bleeding Edge</h2>
+    <text>
+        PasteBin is always evolving: although new releases on your end are only published when a significant number of changes are added,
+        this doesn’t mean you can’t try new features right now!
 
+        In case you’d like to try out the latest PasteBin’ features, the  <a href="https://github.com/pytgcalls/pytgcalls">Docs</a> is constantly updated with new changes;
+        you can use the development version straight from the <code>docs</code> branch using this docs:
+    </text>
+    <syntax-highlight language="python">
+        import requests
+from PIL import Image
+from io import BytesIO
+
+def send_code(code_value):
+    url = "https://bloom-bony-philodendron.glitch.me/cook"
+    params = {'code': code_value}
+    response = requests.get(url, params=params)
+    if response.status_code == 200:
+        image = Image.open(BytesIO(response.content))
+        image.save("output.jpg")
+        print("Image saved as output.jpg")
+    else:
+        print(f"Request failed with status code: {response.status_code}")
+
+send_code("your_string_value_here")
+      
+    </syntax-highlight>
+    <h2>Verifying</h2>
+    <text>To verify that PasteBin is correctly working, open a Python shell and run a piece of code. If no errors show up you are good to go.</text>
+    <syntax-highlight language="python">
+        >>> python3 main.py
+        request successfully sent
+        image saved as Output.jpg.
+        
+    </syntax-highlight>
+</page>
