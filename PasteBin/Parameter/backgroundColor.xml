@@ -1,1 +1,17 @@
 
+<page>
+    <h1>Parameter: backgroundColor</h1>
+    <text>This parameter sets the background color of the generated code image.</text>
+    <h2>Details</h2>
+    <list style="numbers">
+        <item><b>Name:</b> backgroundColor</item>
+        <item><b>Type:</b> string</item>
+        <item><b>Description:</b> Defines the background color using either a hexadecimal value or an RGBA format.</item>
+        <item><b>Example:</b> <code>"rgba(171, 184, 195, 1)"</code></item>
+    </list>
+    <h2>Usage</h2>
+    <text>
+        Use this parameter to customize the background color of the generated image.
+        It supports formats like HEX (e.g., #FFFFFF) and RGBA (e.g., rgba(0, 0, 0, 0.5)).
+    </text>
+</page>
