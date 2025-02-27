@@ -9,7 +9,7 @@
     </list>
     <h2>Usage</h2>
     <text>
-        Use this parameter to customize the background color of the generated image.
+        Use this parameter to customize the background color of the generated PasteBin.
         It supports formats like HEX (e.g., #FFFFFF) and RGBA (e.g., rgba(0, 0, 0, 0.5)).
     </text>
     <h2>Code Example</h2>
