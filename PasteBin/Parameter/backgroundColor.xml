@@ -1,4 +1,4 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
 <page>
     <h1>Parameter: backgroundColor</h1>
     <text>This parameter sets the background color of the generated code image.</text>
@@ -6,12 +6,26 @@
     <list style="numbers">
         <item><b>Name:</b> backgroundColor</item>
         <item><b>Type:</b> string</item>
-        <item><b>Description:</b> Defines the background color using either a hexadecimal value or an RGBA format.</item>
-        <item><b>Example:</b> <code>"rgba(171, 184, 195, 1)"</code></item>
     </list>
     <h2>Usage</h2>
     <text>
         Use this parameter to customize the background color of the generated image.
         It supports formats like HEX (e.g., #FFFFFF) and RGBA (e.g., rgba(0, 0, 0, 0.5)).
     </text>
+    <h2>Code Example</h2>
+    <syntax-highlight>
+        import requests
+
+        api_url = "https://bloom-bony-philodendron.glitch.me/cook?code=console.log(%22Hello%20world%22)&backgroundColor=#ccccc"
+        response = requests.get(api_url)
+
+        if response.status_code == 200:
+            image_path = "output.png"
+            with open(image_path, "wb") as file:
+                file.write(response.content)
+
+            print("Image saved as output.png")
+        else:
+            print("Failed to fetch the image")
+    </syntax-highlight>
 </page>
