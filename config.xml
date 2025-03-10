@@ -1006,8 +1006,8 @@ func main() {
         <link href="https://github.com/BotDevFather/PasteBin">PasteBin</link>
       </category>
       <category title="Project links">
-        <link href="https://github.com/BotDevFather/Teleflix/issues/new/choose">Open a NTgCalls issue</link>
-        <link href="https://github.com/BotDevFather/PasteBin/issues/new/choose">Open a PyTgCalls issue</link>
+        <link href="https://github.com/BotDevFather/Teleflix/issues/new/choose">Open a Teleflix issue</link>
+        <link href="https://github.com/BotDevFather/PasteBin/issues/new/choose">Open a PasteBin issue</link>
         <link href="https://t.me/deathchatting_world">Ask to our Community</link>
       </category>
       <category title="Company">
