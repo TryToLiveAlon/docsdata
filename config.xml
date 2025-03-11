@@ -1063,4 +1063,8 @@ func main() {
     <microtag>Introduction</microtag>
     <file>Quick Start.xml</file>
       </files-list>
+  <files-list id="API" description="Some Of My Small API" basepath="API/" defaultfile="Quick Start.xml">
+    <microtag>Introduction</microtag>
+    <file>Quick Start.xml</file>
+      </files-list>
 </config>
