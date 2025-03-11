@@ -1052,7 +1052,7 @@ func main() {
 
       <microtag>Examples</microtag>
       <group basepath="PasteBin/Example Codes/">
-      <file>Bots javascript.xml</file>
+      <file>Go.xml</file>
       <file>Telebot Code.xml</file>
       <file>Python.xml</file>
       <file>Javascript.xml</file>
@@ -1063,6 +1063,7 @@ func main() {
     <microtag>Introduction</microtag>
     <file>Quick Start.xml</file>
       </files-list>
+  
   <files-list id="API" description="Some Of My Small API" basepath="API/" defaultfile="Quick Start.xml">
     <microtag>Introduction</microtag>
     <file>Quick Start.xml</file>
