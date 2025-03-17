@@ -14,7 +14,7 @@
     </alert>
     <subtext>
         <h3>Example</h3>
-        <syntax-highlight language="py" mark="3">
+        <syntax-highlight language="python" mark="3">
             import requests
 
 API_URL = "https://carflow-mocha.vercel.app/api/mail"
@@ -40,7 +40,7 @@ print("Response:", response.json())
     </alert>
     <subtext>
         <h3>Example</h3>
-        <syntax-highlight language="py" mark="3">
+        <syntax-highlight language="python" mark="3">
             import requests
 
 API_URL = "https://carflow-mocha.vercel.app/api/mail"
@@ -69,7 +69,7 @@ print("Response:", response.json())
     </text>
     <subtext>
         <h3>Example</h3>
-        <syntax-highlight language="py" mark="9">
+        <syntax-highlight language="python" mark="9">
             import requests
 
 API_URL = "https://carflow-mocha.vercel.app/api/mail"
