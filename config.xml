@@ -1025,17 +1025,16 @@ func main() {
 
       <microtag>Mailer</microtag>
      <group basepath="API/Mailer/">
-      <file>basic.xml</file>
-      <file>example.xml</file>
-      <file>Contribute.xml</file>
-      <file>help.xml</file>
-      <microtag>Advance</microtag>
-      <group basepath="API/Advance/">
-      <file>Xml.xml</file>
-      <file>Telebot Code.xml</file>
+      <file>First request.xml</file>
+      <file>Basic parameter.xml</file>
+      <file>Response Handling.xml</file>
+      <file>Advance parameter</file>
+      <file>Template Format.xml</file>
+      <file>Reserved Keys.xml</file>
       <file>Python.xml</file>
       <file>Javascript.xml</file>
-    </group>
+      <file>BJS.xml</file>
+      <file>App password.xml</file>
     </group>
       </files-list>
 
