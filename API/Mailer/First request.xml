@@ -1,0 +1,95 @@
+<page>
+    <h1>Getting Started</h1>
+    <text>
+        The Email Sending API allows you to send emails with various content formats, including plain text, HTML, and XML-based templates. You can also attach files of any type and dynamically replace placeholders within templates.
+    </text>
+    <separator/>
+    <h2>Initialization</h2>
+    <text>
+        To get started with Mailer in your application, you need to initialize the api using the base url <code>https://carflow-mocha.vercel.app/api/mail</code> api.
+        This url sets up the necessary resources and prepares Mailer for use.
+    </text>
+    <alert type="important">
+        Make sure to use <code>https://carflow-mocha.vercel.app/api/mail</code> before using any GET/POST request.
+    </alert>
+    <subtext>
+        <h3>Example</h3>
+        <syntax-highlight language="py" mark="3">
+            import requests
+
+API_URL = "https://carflow-mocha.vercel.app/api/mail"
+
+email_data = {
+    "from": "your_email@gmail.com",
+    "password": "your_app_password",
+    "to": "recipient@example.com",
+    "subject": "Hello from API!",
+    "content": "Hello, this is a test email from the API.",
+    "isHtml": False
+}
+
+response = requests.post(API_URL, json=email_data)
+
+print("Response:", response.json())
+
+        </syntax-highlight>
+    </subtext>
+
+    <alert type="note">
+      This API support both GET/POST request so don't worry about that it is quick as possible.
+    </alert>
+    <subtext>
+        <h3>Example</h3>
+        <syntax-highlight language="py" mark="3">
+            import requests
+
+API_URL = "https://carflow-mocha.vercel.app/api/mail"
+
+params = {
+    "from": "your_email@gmail.com",
+    "password": "your_app_password",
+    "to": "recipient@example.com",
+    "subject": "Hello from API!",
+    "content": "Hello, this is a test email from the API.",
+    "isHtml": "false"
+}
+
+response = requests.get(API_URL, params=params)
+
+print("Response:", response.json())
+          
+        </syntax-highlight>
+    </subtext>
+
+    <separator/>
+    <h2>API Version</h2>
+    <text>
+        You can retrieve the version of the NTgCalls library currently in use using the <code>ntg_get_version</code> function.
+        This function returns a string containing the version number.
+    </text>
+    <subtext>
+        <h3>Example</h3>
+        <syntax-highlight language="py" mark="9">
+            import requests
+
+API_URL = "https://carflow-mocha.vercel.app/api/mail"
+
+response = requests.get(API_URL)
+
+if response.status_code == 200:
+    data = response.json()
+    version = data.get("version", "Version key not found")
+    print("API Version:", version)
+else:
+    print("Failed to fetch API response. Status code:", response.status_code)
+
+        </syntax-highlight>
+        <separator/>
+        <br/>
+<h3>Explore</h3>
+    <text>
+      Already excited to improve your project via our api go ahead. Our main task is to make this api widely available to everyone.
+      making this you can help us.
+      Excited about the template feature jump to Template Format. Contribute us by just giving a share to the documention.
+    </text>
+</page>
